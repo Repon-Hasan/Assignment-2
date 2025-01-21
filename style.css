@@ -1,0 +1,233 @@
+/* Navbar design */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  margin: 20px 142px ;
+}
+body{
+  background-color: rgb(247, 247, 247) ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.site-content{
+    display: flex;
+}
+.site-logo{
+    width: 10.58px;
+height: 17.58px;
+}
+.site-title{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 32px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 60px;
+margin-top: 17px;
+
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin-top: 16px;
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* Navbaritems style */
+#home{
+    color: rgb(254, 163, 1);
+}
+#about{
+  color: rgb(1, 172, 253);
+}
+#facilities{
+  color: rgb(1, 172, 253);
+}
+#admission{
+  color: rgb(93, 88, 239);
+}
+.nav-items ul a{
+  text-decoration: none;
+}
+.nav-button{
+    margin-top: 16px;
+}
+.nav-button button{
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+padding: 16px 62px;
+border-radius: 12px;
+}
+
+
+/* Menu-icon design */
+#menu-icon{
+    display: none;
+}
+.border{
+  border-bottom: 0.5px solid rgb(254, 163, 1);
+  width: 100%;
+  display: none;
+}
+
+/* Banner style */
+.banner-container{
+  margin-top: 50px;
+  display: flex;
+  gap: 160px;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+.banner-content{
+  width: 940px;
+height: 331px;
+}
+.banner-title{
+  font-family: Quicksand;
+font-size: 50px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+#explore{
+  color: rgb(254, 163, 1);
+}
+#vision{
+  color: rgb(1, 172, 253);
+}
+.banner-description p{
+  color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 25px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 22px;
+}
+.banner-button button{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 12px;
+text-align: center;
+background: rgb(17, 17, 17);
+width: 197px;
+height: 57px;
+
+}
+.banner-img img{
+   width: 100%;
+   height: 100%;
+   width: 550px;
+   height: 650px;
+   
+}
+/* Media query */
+@media screen and (max-width:576px) {
+ body{
+  margin: 0%;
+  padding: 0%;
+ }
+.site-logo img {
+ width: 36px;
+ margin-left: 14px;
+  }
+  .site-title{
+    display: none;
+  }
+  .nav-button{
+    display: none;
+  }     
+ .nav-items ul li{
+  
+    display: none;
+ 
+ }  
+ #menu-icon{
+    display: inline-block;
+   margin-left: 50vw;
+   font-size: 30px;   
+  margin-top: 28px;
+  margin-right: 14px;
+ } 
+ .border{
+  display: block;
+  margin-top: 12px;
+ }
+ /* Responsive Banner */
+ .banner-container{
+  flex-direction: column-reverse;
+  gap: 0px;
+  
+ }
+ .banner-content{
+  max-width: 100%;
+ }
+
+ .banner-title{
+  max-width: 100%;
+  text-align: center;
+
+ }
+ .banner-title h2{
+  font-size: 1.8rem;
+  margin:0px;
+ 
+ }
+.banner-img img{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+ .banner-description p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+ }
+ .banner-button{
+  text-align: center;
+ }
+
+
+}
+
