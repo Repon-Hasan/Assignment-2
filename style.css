@@ -389,10 +389,10 @@ top: 314.14px;
   margin-top: -30px;
 }
 .right-section{
-  /* display: grid;
-  grid-template-columns: repeat(2,1fr); */
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 49px;
   width: 100%;
  
@@ -700,6 +700,10 @@ text-align: left;
   height: auto;
   
 }
+.right-section button{
+  display: flex;
+  justify-content: center;
+}
 .right-section h2{
   font-size: 1.1rem;
 }
@@ -746,6 +750,9 @@ footer{
 }
 .Logo img{
   margin-bottom: 25px;
+}
+.right-section button{
+  margin: -22px 8px auto;
 }
  
 }
