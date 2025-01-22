@@ -487,6 +487,8 @@ margin-top: 1px;
 .footer-container{
   display: flex;
   padding: 183px 0px 174px 0px;
+  justify-content: center;
+ 
 }
 .logo-with-text{
   display: flex;
@@ -748,6 +750,9 @@ footer{
   margin: 30px 0px;
   font-size: 1.7rem;
 }
+.navigation ul{
+  margin: 0px;
+}
 .navigation ul li{
   margin: 14px 0px;
 }
@@ -758,9 +763,7 @@ footer{
 .Logo img{
   margin-bottom: 25px;
 }
-.Logo {
-  flex-direction: column;
-}
+
 .right-section button{
   margin: -22px 8px auto;
 }
