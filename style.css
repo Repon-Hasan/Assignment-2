@@ -314,7 +314,7 @@ text-align: center;
   gap: 50px;
   justify-content: center;
   align-items: center;
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 .stories h1{
   color: rgb(0, 0, 0);
@@ -328,14 +328,17 @@ text-align: center;
 }
 .left-section{
   width: 100%;
-height: auto;
+height: 100%;
 border-radius: 16px;
 background: rgb(255, 255, 255);
+
 }
 .left-section img{
   border-radius: 16px 16px 0px 0px;
 background: url(),rgb(217, 217, 217);
 width: 100%;
+margin-right: 20px;
+
 }
 .left-section h2{
   margin: 62px 99px 32px 39px;
