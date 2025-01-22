@@ -758,9 +758,9 @@ footer{
 .Logo img{
   margin-bottom: 25px;
 }
-.Logo{
+/* .Logo {
   flex-direction: column;
-}
+} */
 .right-section button{
   margin: -22px 8px auto;
 }
