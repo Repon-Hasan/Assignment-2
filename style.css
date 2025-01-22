@@ -67,7 +67,7 @@ text-align: left;
   color: rgb(1, 172, 253);
 }
 #facilities{
-  color: rgb(1, 172, 253);
+color: rgb(5, 212, 223);
 }
 #admission{
   color: rgb(93, 88, 239);
@@ -454,6 +454,22 @@ margin-bottom: 55px;
 justify-content: center;
 align-items: center;
 
+}
+/* Marque */
+.main-1 {
+  text-align: center;
+}
+
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.geek1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
 }
 
 /* Footer section */
