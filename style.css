@@ -486,7 +486,7 @@ margin-top: 1px;
 }
 .footer-container{
   display: flex;
-  padding: 183px 229px 174px 140px;
+  padding: 183px 229px 174px 0px;
 }
 .logo-with-text{
   display: flex;
