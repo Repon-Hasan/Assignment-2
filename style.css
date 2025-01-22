@@ -327,8 +327,8 @@ text-align: center;
   margin-bottom: 60px;
 }
 .left-section{
-  width: 640.27px;
-height: 760.52px;
+  width: 100%;
+height: auto;
 border-radius: 16px;
 background: rgb(255, 255, 255);
 }
