@@ -563,7 +563,10 @@ text-align: left;
 .Logo{
   display: flex;
 }
-
+.left:hover,.right:hover{
+  background-color: green;
+  
+}
 /* Media query */
 @media screen and (max-width:576px) {
  body{
